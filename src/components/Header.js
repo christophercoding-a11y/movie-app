@@ -5,13 +5,12 @@ const Header =()=> {
             <section className="section" id="headerSection">
                 <div className="container">
                     <div className="text-capitalize">
-                        <h1 className="header-text text-capitalize">reel movies</h1>
+                        <h1 className="header-text text-capitalize text-light">reel movie theater</h1>
                         <nav className="topNav">
                             <ul className="nav list-unstyled justify-content-between">
                             <li><a href="/">Home</a></li>
                             <li><a href="/">Services</a></li>
                             <li><a href="/">Contact</a></li>
-
                             </ul>
                         </nav>
                     </div>

@@ -98,6 +98,28 @@ export default [
             {day: "Monday", time: "2:00 PM"},
             {day: "Wednesday", time: "4:00 PM"},
         ]
+    },
+    {
+        
+        title: "Last Breath",
+        imgUrl:  '/images/lastbreath.jpeg',
+        description: "The true story of seasoned deep-sea divers who battle the raging elements to rescue a crewmate who's trapped hundreds of feet below the ocean's surface.",
+        rating: 'PG-13',
+        showcase: [
+            {day: "Tuesday", time: "2:00 PM"},
+            {day: "Wednesday", time: "4:00 PM"},
+        ]
+    },
+    {
+        
+        title: "Dogman",
+        imgUrl:  '/images/dogman.jpeg',
+        description: "When a police officer and his faithful police dog get injured in the line of duty, a harebrained but life-saving surgery fuses the two of them together -- and Dog Man is born. As Dog Man learns to embrace his new identity, he must stop feline supervillain Petey the Cat from cloning himself and going on a crime spree.",
+        rating: 'PG',
+        showcase: [
+            {day: "Monday", time: "12:00 PM"},
+            {day: "Tuesday", time: "2:00 PM"},
+        ]
     }
 ]
 
