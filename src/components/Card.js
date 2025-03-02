@@ -18,6 +18,9 @@ const Card = ({title, imgUrl, description, rating, showcase})=> {
                         )
                     })}
                 </ul>
+                <div className="mb-3">
+                    <button className="btn btn-primary text-capitalize">buy tickets</button>
+                </div>
             </div>
         </div>
     )
