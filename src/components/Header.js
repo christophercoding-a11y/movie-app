@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import { FcFilmReel } from "react-icons/fc";
+import { GiPopcorn } from "react-icons/gi";
 
 const Header =()=> {
 
@@ -9,18 +9,18 @@ const Header =()=> {
             <section className="section" id="headerSection">
                 <div className="container">
                     <div className="text-capitalize">
-                        <h1 className="header-text text-capitalize text-light"><FcFilmReel className="icon" />reel movie theater</h1>
+                        <h1 className="header-text text-capitalize text-light"><GiPopcorn className="icon" />reel movies</h1>
 
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 justify-content-evenly">
                             <li className="nav-item">
-                                <Link className=" text-light link-text text-decoration-none">Home</Link>
+                                <Link className=" text-light link-text text-decoration-none">Menu</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="text-light link-text text-decoration-none">Services</Link>
+                                <Link className="text-light link-text text-decoration-none">Venue</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="text-light link-text text-decoration-none">About</Link>
+                                <Link className="text-light link-text text-decoration-none">FAQ</Link>
                             </li>
                             </ul>
                         </nav>

@@ -1,26 +1,26 @@
-const Card = ({title, imgUrl, description, rating, showcase})=> {
+import { Link } from "react-router-dom"
+
+const Card = (props)=> {
     return (
         <div className="col">
             <div className="card movie-card">
-                <img src={imgUrl}alt="movie-poster" className="img-fluid image card-img h-75" />
-                <h2 className="card-title text-center">{title}</h2>
+                <img src={props.imgUrl}alt="movie-poster" className="img-fluid image card-img h-75" />
+                <h2 className="card-title text-center">{props.title}</h2>
             </div>
             <div className="card-body">
-                <p className="card-text">{description}</p>
-                <p className="card-text">{rating}</p>
-                <h3 className="text-capitalize">showtimes</h3>
+                {/* <p className="card-text">{props.description}</p> */}
+                <p className="card-text text-light">{props.rating}</p>
+                <h3 className="text-capitalize text-light">showtimes</h3>
                 <ul>
-                    {showcase.map((showtime, index)=> {
+                    {props.showcase.map((showtime, arr)=> {
                         return (
-                            <li key={index}>
-                                {showtime.day} at {showtime.time}
+                            <li className="text-light" key={arr}>
+                                {showtime.day} 
+                                <Link className="time-link text-light">{showtime.time}</Link>
                             </li>
                         )
                     })}
                 </ul>
-                <div className="mb-3">
-                    <button className="btn btn-primary text-capitalize">buy tickets</button>
-                </div>
             </div>
         </div>
     )
