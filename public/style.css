@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: #E1D9D1; */
-    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    /* background: linear-gradient(to right, #6a11cb, #2575fc);  */
+    background: linear-gradient(to right, #4B0082, #0074E4); 
     line-height: 1.6;
     height: 100vh;
 }
@@ -15,9 +16,10 @@ body {
 }
 
 
+
 .card {
     width: 300px;
-    height: 600px;
+    height: 400px;
     margin: 20px;
     border-radius: 15px;
     box-shadow: 0px 4px 8px black
@@ -50,7 +52,7 @@ h2, h3 {
 
 .card-title {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 15px 0;
 }
 

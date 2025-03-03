@@ -10,7 +10,6 @@ const Header =()=> {
                 <div className="container">
                     <div className="text-capitalize">
                         <h1 className="header-text text-capitalize text-light"><GiPopcorn className="icon" />reel movies</h1>
-
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 justify-content-evenly">
                             <li className="nav-item">
