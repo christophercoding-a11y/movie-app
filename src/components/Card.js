@@ -1,6 +1,19 @@
 import { Link } from "react-router-dom"
 
 const Card = (props)=> {
+
+    const listItems = props.showcase.map((showtime, index)=> {
+        return (
+            <li className="text-light" key={index}>
+                {showtime.day}
+                {showtime.times.map((time, i)=> (
+                    <Link key={i} className="time-link btn btn-secondary text-light m-2">
+                        {time}
+                    </Link>
+                ))} 
+            </li>
+        );
+    });
     return (
         <div className="col">
             <div className="card movie-card">
@@ -12,14 +25,7 @@ const Card = (props)=> {
                 <p className="card-text text-light">{props.rating}</p>
                 <h3 className="text-capitalize text-light">showtimes</h3>
                 <ul>
-                    {props.showcase.map((showtime, arr)=> {
-                        return (
-                            <li className="text-light" key={arr}>
-                                {showtime.day} 
-                                <Link className="time-link text-light">{showtime.time}</Link>
-                            </li>
-                        )
-                    })}
+                    { listItems }
                 </ul>
             </div>
         </div>
@@ -27,3 +33,5 @@ const Card = (props)=> {
 }
 
 export default Card;
+
+
