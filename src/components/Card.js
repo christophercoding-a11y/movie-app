@@ -4,10 +4,10 @@ const Card = (props)=> {
 
     const listItems = props.showcase.map((showtime, index)=> {
         return (
-            <li className="text-light" key={index}>
+            <li className=" day-text text-light" key={index}>
                 {showtime.day}
                 {showtime.times.map((time, i)=> (
-                    <Link key={i} className="time-link btn btn-secondary text-light m-2">
+                    <Link key={i} className="time-link btn btn-secondary text-light m-1">
                         {time}
                     </Link>
                 ))} 
