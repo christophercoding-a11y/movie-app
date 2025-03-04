@@ -3,7 +3,7 @@ export default [
         title: "Captain America: Brave New World",
         imgUrl:  '/images/captain.jpeg',
         description: "Sam finds himself in the middle of an international incident after meeting with President Thaddeus Ross. He must soon discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.",
-        rating: 'PG-13 Action Superhero',
+        rating: 'PG-13 Action, Superhero',
         showcase: [
             {
                 day: 'Monday, June 12',
@@ -18,7 +18,7 @@ export default [
         title: "The Batman",
         imgUrl: '/images/batman.jpeg',
         description: "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues. As the scale of the perpetrator's plans become clear, he must bring justice to the abuse of power and corruption that plagues the metropolis.",
-        rating: 'PG-13 Action Superhero',
+        rating: 'PG-13 Action, Superhero',
         showcase: [
             {
                 day: 'Monday, June 14',
