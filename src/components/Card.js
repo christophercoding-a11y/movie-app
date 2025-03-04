@@ -21,7 +21,7 @@ const Card = (props)=> {
                 <h2 className="card-title text-center mt-4">{props.title}</h2>
             </div>
             <div className="card-body">
-                {/* <p className="card-text">{props.description}</p> */}
+                <p className="card-text description-text text-light">{props.description}</p>
                 <p className="card-text text-light">{props.rating}</p>
                 <h3 className="text-capitalize text-light">showtimes</h3>
                 <ul>

@@ -32,6 +32,10 @@ body {
     font-size: large;
 }
 
+.description-text {
+    font-size: medium;
+}
+
 .footer {
     background-color: #2c3e50;
 }
