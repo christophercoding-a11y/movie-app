@@ -6,15 +6,11 @@ const Footer =()=> {
             <div className="row">
                 <div className="col-sm-6">
             <h2 className="text-uppercase text-light location-heading">Location</h2>
-            <p className="location-text text-light"> 754 Big road Rd, Ridgeland, CA 56187</p>
+            <p className="location-text text-light">754 Big road Rd, Ridgeland, CA 56187</p>
                 </div>
                 <div className="col-sm-6">
                     <h2 className="text-center text-sm-end social-item text-uppercase text-light mt-4">socials</h2>
                     <nav className="nav social-nav justify-content-center justify-content-sm-end">
-                        {/* <a href="https://github.com/christophercoding-a11y"target="_blank" className="nav-link">
-                            <i className="bi bi-github social-icons"></i>
-                            <span className="visually-hidden">github</span>
-                        </a> */}
                         <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"target="_blank" className="nav-link">
                             <i className="bi bi-linkedin social-icons"></i>
                             <span className="visually-hidden">linkedin</span>
