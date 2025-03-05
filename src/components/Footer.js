@@ -6,7 +6,7 @@ const Footer =()=> {
             <div className="row">
                 <div className="col-sm-6">
             <h2 className="text-uppercase text-light location-heading">Location</h2>
-            <p className="location-text text-light"> 250 Ring Rd, Ridgeland, MS 39157</p>
+            <p className="location-text text-light"> 754 Big road Rd, Ridgeland, CA 56187</p>
                 </div>
                 <div className="col-sm-6">
                     <h2 className="text-center text-sm-end social-item text-uppercase text-light mt-4">socials</h2>
