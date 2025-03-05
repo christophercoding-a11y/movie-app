@@ -3,14 +3,13 @@ const Footer =()=> {
     return (
         <footer className="footer" id="footer">
             <div className="container">
-            <h2 className="text-uppercase text-light location-heading">Location</h2>
-            <p className="location-text text-light"> 250 Ring Rd, Ridgeland, MS 39157</p>
-
             <div className="row">
                 <div className="col-sm-6">
+            <h2 className="text-uppercase text-light location-heading">Location</h2>
+            <p className="location-text text-light"> 250 Ring Rd, Ridgeland, MS 39157</p>
                 </div>
                 <div className="col-sm-6">
-                    <h2 className="text-center text-sm-end social-item text-uppercase text-light">socials</h2>
+                    <h2 className="text-center text-sm-end social-item text-uppercase text-light mt-4">socials</h2>
                     <nav className="nav social-nav justify-content-center justify-content-sm-end ">
                         <a href="https://github.com/christophercoding-a11y"target="_blank" className="nav-link">
                             <i className="bi bi-github social-icons"></i>
