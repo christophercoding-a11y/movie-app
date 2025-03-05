@@ -10,11 +10,11 @@ const Footer =()=> {
                 </div>
                 <div className="col-sm-6">
                     <h2 className="text-center text-sm-end social-item text-uppercase text-light mt-4">socials</h2>
-                    <nav className="nav social-nav justify-content-center justify-content-sm-end ">
-                        <a href="https://github.com/christophercoding-a11y"target="_blank" className="nav-link">
+                    <nav className="nav social-nav justify-content-center justify-content-sm-end">
+                        {/* <a href="https://github.com/christophercoding-a11y"target="_blank" className="nav-link">
                             <i className="bi bi-github social-icons"></i>
                             <span className="visually-hidden">github</span>
-                        </a>
+                        </a> */}
                         <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"target="_blank" className="nav-link">
                             <i className="bi bi-linkedin social-icons"></i>
                             <span className="visually-hidden">linkedin</span>
