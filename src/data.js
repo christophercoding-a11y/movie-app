@@ -9,7 +9,7 @@ export default [
                 day: 'Monday, June 12',
                 times: ['12:00 pm', '2:00 pm']
             }, {
-                day: 'Monday, June 13',
+                day: 'Tuesday, June 13',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -21,11 +21,11 @@ export default [
         rating: 'PG-13 Action, Superhero',
         showcase: [
             {
-                day: 'Monday, June 14',
+                day: 'Wednesday, June 14',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Tuesday, June 15',
+                day: 'Thursday, June 15',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -37,11 +37,11 @@ export default [
         rating: 'PG-13 Action, Superhero',
         showcase: [
             {
-                day: 'Wednesday, June 16',
+                day: 'Friday, June 16',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Thursday, June 17',
+                day: 'Saturday, June 17',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -53,11 +53,11 @@ export default [
         rating: 'R-rated Horror, Slasher ',
         showcase: [
             {
-                day: 'Friday, June 18',
+                day: 'Sunday, June 18',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Saturday, June 19',
+                day: 'Monday, June 19',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -69,11 +69,11 @@ export default [
         rating: 'R-rated Action, Superhero',
         showcase: [
             {
-                day: 'Sunday, June 20',
+                day: 'Tuesday, June 20',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Monday, June 21',
+                day: 'Wednesday, June 21',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -85,11 +85,11 @@ export default [
         rating: 'R-rated Horror, Comedy',
         showcase: [
             {
-                day: 'Tuesday, June 22',
+                day: 'Thursday, June 22',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Wednesday, June 23',
+                day: 'Friday, June 23',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -101,11 +101,11 @@ export default [
         rating: 'PG-13 Adventure, Drama',
         showcase: [
             {
-                day: 'Thursday, June 24',
+                day: 'Saturday, June 24',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Friday, June 25',
+                day: 'Sunday, June 25',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -117,11 +117,11 @@ export default [
         rating: 'PG Action, Adventure',
         showcase: [
             {
-                day: 'Saturday, June 26',
+                day: 'Monday, June 26',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Sunday, June 27',
+                day: 'Tuesday, June 27',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -133,11 +133,11 @@ export default [
         rating: 'R Action, Superhero',
         showcase: [
             {
-                day: 'Monday, June 28',
+                day: 'Wednesday, June 28',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Sunday, June 29',
+                day: 'Thursday, June 29',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -149,11 +149,11 @@ export default [
         rating: 'R-rated Horror, Mystery',
         showcase: [
             {
-                day: 'Monday, June 30',
+                day: 'Friday, June 30',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Sunday, June 30',
+                day: 'Saturday, July 1',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -166,11 +166,11 @@ export default [
         rating: 'PG-13 Horror, Drama',
         showcase: [
             {
-                day: 'Tuesday, July 1',
+                day: 'Sunday, July 2',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Wednesday, July 2',
+                day: 'Monday, July 3',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
@@ -183,11 +183,11 @@ export default [
         rating: 'PG Action, Adventure',
         showcase: [
             {
-                day: 'Thursday, July 3',
+                day: 'Tuesday, July 4',
                 times: ['12:00 pm', '2:00 pm']
             },
             {
-                day: 'Friday, July 4',
+                day: 'Wednesday, July 5',
                 times: ['12:00 pm', '2:00 pm']
             }
         ]
