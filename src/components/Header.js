@@ -13,13 +13,13 @@ const Header =()=> {
                         <nav className="topNav">
                             <ul className="nav list-unstyled m-0 justify-content-evenly">
                             <li className="nav-item">
-                                <Link className="nav-text link-text text-decoration-none">Menu</Link>
+                                <Link className="nav-text link-text text-decoration-underline">Menu</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-text link-text text-decoration-none">Venue</Link>
+                                <Link className="nav-text link-text text-decoration-underline">Venue</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-text link-text text-decoration-none">FAQ</Link>
+                                <Link className="nav-text link-text text-decoration-underline">FAQ</Link>
                             </li>
                             </ul>
                         </nav>
