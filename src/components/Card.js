@@ -23,6 +23,7 @@ const Card = (props)=> {
             <div className="card-body">
                 {/* <p className="card-text description-text text-light">{props.description}</p> */}
                 <p className="card-text text-light">{props.rating}</p>
+                <p className="card-text text-light">{props.genre}</p>
                 <h3 className="text-capitalize text-light">showtimes</h3>
                 <ul>
                     { listItems }

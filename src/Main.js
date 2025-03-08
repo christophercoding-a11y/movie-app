@@ -10,6 +10,7 @@ const Main =(props)=> {
                 imgUrl={item.imgUrl}
                 description={item.description}
                 rating={item.rating}
+                genre={item.genre}
                 showcase={item.showcase}
             />
         )
